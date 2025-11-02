@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Shoham mallick || Volti - Book Your Eco-Friendly Ride</title>
+
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#00c853">
+
+<!-- Add this to support PWA on iOS -->
+<link rel="apple-touch-icon" href="assets/images/logo-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  
+  <meta name="title" content="Volti - Book Your Eco-Friendly Ride">
+  <meta name="description" content="This is a vehicle charging html template made by Shoham Mallick">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class=" preload-box" data-preloader>
+    <img src="./assets/images/loading.svg" width="45" height="45" alt="loading">
+
+    <img src="./assets/images/loading-circle.svg" width="75" height="75" alt="loading" class="preload-circle">
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img id="site-logo" src="./assets/images/logoev.png" width="160" height="50" alt="Scootify-ev">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#gallery" class="navbar-link">Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-action">
+
+    <a href="tel:+12312345678901" class="contact-number">
+      <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">+(880) 1812487092</span>
+    </a>
+
+        <a href="#contact" class="btn btn-primary">
+          <span class="span">Book Now</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
+        <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content" data-reveal="left">
+
+            <h1 class="h1 hero-title">
+              Book Your <span class="span">New Eco-Friendly</span> Ride.
+            </h1>
+
+            <ul class="hero-list">
+
+              <li>
+                <div class="hero-card">
+                  <ion-icon name="speedometer-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-subtitle">Top speed</p>
+
+                  <p class="card-title">90 km/h</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="hero-card">
+                  <ion-icon name="stopwatch-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-subtitle">0-50 km/hr in</p>
+
+                  <p class="card-title">3.3 sec</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="hero-card">
+                  <ion-icon name="speedometer-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-subtitle">Certified Range</p>
+
+                  <p class="card-title">118 km</p>
+                </div>
+              </li>
+
+            </ul>
+
+            <a href="#contact" class="btn btn-primary">
+              <span class="span">Book Now</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <img src="./assets/images/hero-banner.png" width="1116" height="766" alt="Bike" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCTS
+      -->
+
+      <section class="section products" id="products" aria-labelledby="products-label">
+        <div class="container">
+
+          <p class="section-subtitle has-before" id="products-label" data-reveal>Our Scooters</p>
+
+          <h2 class="h2 section-title" data-reveal>
+            Pick the perfect Volti e-scooty
+          </h2>
+
+          <ul class="product-list" id="product-list" data-reveal>
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner" data-reveal="left">
+            <img src="./assets/images/about-banner-1.jpg" width="380" height="382" loading="lazy" alt="about banner"
+              class="w-100 img-1">
+
+            <img src="./assets/images/about-banner-2.jpg" width="347" height="349" loading="lazy" alt="about banner"
+              class="w-100 img-2">
+          </figure>
+
+          <div class="about-content" data-reveal="right">
+
+            <p class="section-subtitle has-before" id="about-label">About Us</p>
+
+            <h2 class="h2 section-title">
+              Our mission is to build a cleaner world with easy access to electric mobility
+            </h2>
+
+            <p class="section-text">
+              Charge your electric scooter effortlessly at home using our smart charging solutions — or connect to over 3,000+ public charging stations across the country.
+            </p>
+
+            <div class="about-wrapper">
+
+              <div class="about-card">
+
+                <div class="title-wrapper">
+                  <ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="card-title">Zero contact travel</h3>
+                </div>
+
+                <p class="card-text">
+                  We care about your safety. Our electric scooters ensure a hygienic, contact-free travel experience, perfect for modern city life.
+                </p>
+
+              </div>
+
+              <div class="about-card">
+
+                <div class="title-wrapper">
+                  <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="card-title">No Driving License Required</h3>
+                </div>
+
+                <p class="card-text">
+                  No license? No problem. Volti scooters are designed for easy and legal use without a driving license — just hop on and go.
+                </p>
+
+              </div>
+
+            </div>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <span class="span">Detachable battery, take it home and fully charge in 3 hours.</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <span class="span">Enjoy a smooth, worry-free ride with just 3 hours of charging.</span>
+              </li>
+
+            </ul>
+
+            <a href="#about" class="btn btn-primary">
+              <span class="span">Read More</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="section stats" aria-label="statistics">
+        <div class="container">
+
+          <ul class="stats-list" data-reveal>
+
+            <li class="stats-card">
+              <h3 class="h3 card-title">650m+</h3>
+
+              <p class="card-text">
+                Charge sessions tracked remotely via the Ether app.
+              </p>
+            </li>
+
+            <li class="stats-card">
+              <h3 class="h3 card-title">564+</h3>
+
+              <p class="card-text">
+                Public charging stations connected.
+              </p>
+            </li>
+
+            <li class="stats-card">
+              <h3 class="h3 card-title">125k+</h3>
+
+              <p class="card-text">
+                Active app users checking charge status anytime, anywhere.
+              </p>
+            </li>
+
+          </ul>
+
+          <div class="stats-banner" id="gallery" data-reveal>
+            <img src="./assets/images/stats-banner.jpg" width="1398" height="565" loading="lazy" alt="video banner"
+              class="img-cover">
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle has-before" id="service-label" data-reveal>What We Do!</p>
+
+          <h2 class="h2 section-title" data-reveal>
+            What Advantages Will You Get Using An E-Scooter?
+          </h2>
+
+          <div class="wrapper">
+
+            <ul class="service-list" data-reveal="left">
+
+              <li class="service-item">
+                <div>
+                  <h3 class="h5 card-title">Recoverable Energy</h3>
+
+                  <p class="card-text">
+                    Efficient energy use that maximizes your ride time and battery life.
+                  </p>
+                </div>
+
+                <div class="card-icon">
+                  <ion-icon name="car-outline" aria-hidden="true"></ion-icon>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div>
+                  <h3 class="h5 card-title">Quick Installation</h3>
+
+                  <p class="card-text">
+                    Easy, fast setup of home charging solutions — get started in no time.
+                  </p>
+                </div>
+
+                <div class="card-icon">
+                  <ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div>
+                  <h3 class="h5 card-title">Zero Contact Travel</h3>
+
+                  <p class="card-text">
+                    Safe, hygienic rides with minimal physical contact, perfect for today’s world.
+                  </p>
+                </div>
+
+                <div class="card-icon">
+                  <ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
+                </div>
+              </li>
+
+            </ul>
+
+            <figure class="service-banner img-holder" style="--width: 805; --height: 510;">
+              <img src="./assets/images/service-banner.png" width="805" height="510" loading="lazy" alt="service banner"
+                class="img-cover">
+            </figure>
+
+            <ul class="service-list" data-reveal="right">
+
+              <li class="service-item">
+                <div class="card-icon">
+                  <ion-icon name="car-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h5 card-title">Long-Lasting Battery</h3>
+
+                  <p class="card-text">
+                    Reliable power that keeps you moving longer between charges.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="card-icon">
+                  <ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h5 card-title">Smart Connectivity</h3>
+
+                  <p class="card-text">
+                    Monitor your scooter’s status and control charging through our mobile app.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="card-icon">
+                  <ion-icon name="bonfire-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h5 card-title">Eco-Friendly Ride</h3>
+
+                  <p class="card-text">
+                    Reduce your carbon footprint with zero emissions and green energy use.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="book">
+        <div class="container">
+
+          <div class="cta-card" data-reveal="left">
+
+            <div>
+              <h2 class="h1 card-title">Designed for Our Roads</h2>
+
+              <p class="card-text">
+                Built to handle local conditions with durability and comfort.<br>
+                Experience smooth rides tailored to your environment.
+              </p>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">
+              <span class="span">Book Now</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="cta-banner" data-reveal="right">
+            <img src="./assets/images/cta-banner.jpg" width="330" height="206" loading="lazy" alt="cta banner"
+              class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal>
+
+            <div>
+              <p class="section-subtitle has-before" id="blog-label">Fresh News</p>
+
+              <h2 class="h2 section-title">Stay updated with the latest insights and innovations in electric vehicle systems.
+              </h2>
+            </div>
+
+            <a href="#blog" class="btn btn-secondary">
+              <span class="span">View More Blog</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <ul class="blog-list" data-reveal>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 770; --height: 550;">
+                  <img src="./assets/images/blog-1.jpg" width="770" height="550" loading="lazy"
+                    alt="Energy Star Certified Electric Vehicle Chargers" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="publish-date" datetime="2022-06-03">03 Jun 2025</time>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Admin</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">5 Comments</span>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h5">
+                    <a href="#blog" class="card-title">
+                      Energy Star Certified Electric Vehicle Chargers
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 770; --height: 550;">
+                  <img src="./assets/images/blog-2.jpg" width="770" height="550" loading="lazy"
+                    alt="Charging Solution For Electric Car & Hybrid Car" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="publish-date" datetime="2022-06-03">06 Jun 2025</time>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Admin</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">4 Comments</span>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h5">
+                    <a href="#blog" class="card-title">
+                      Charging Solutions for Electric & Hybrid Cars
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 770; --height: 550;">
+                  <img src="./assets/images/blog-3.jpg" width="770" height="550" loading="lazy"
+                    alt="Home Charging Station For A Electric Vehicless" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="publish-date" datetime="2022-06-03">10 Jun 2025</time>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Admin</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">9 Comments</span>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h5">
+                    <a href="#blog" class="card-title">
+                      Home Charging Stations for Electric Vehicles
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact" aria-label="contact" data-reveal="right">
+        <div class="container">
+
+          <ul class="contact-list">
+
+            <li>
+              <div class="contact-card">
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h6">Hot Line</h3>
+
+                  <a href="tel:+01123457890" class="card-subtitle">+(880) 1812487092</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="contact-card">
+                <div class="card-icon">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h6">E-mail Address</h3>
+
+                  <a href="mailto:shohammallick528@gmail.com" class="card-subtitle">info.volti@gmail.com</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="contact-card">
+                <div class="card-icon">
+                  <ion-icon name="compass-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h6">Our Location</h3>
+
+                  <address class="card-subtitle">Chittagong, Bangladesh-1000</address>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="email">
+    <div class="container">
+
+      <div class="footer-top section" data-reveal>
+
+        <div class="newsletter-card">
+
+          <div class="card-icon">
+            <ion-icon name="mail-unread-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <h3 class="h3 card-title">Sign Up for Electric Car News & Insights</h3>
+
+          <form action="#" class="newsletter-form">
+
+            <label for="email" class="label">Email address</label>
+
+            <input type="email" name="email" id="email" placeholder="Your Email address" required class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+
+          </form>
+
+        </div>
+
+        <div class="footer-list" id="contact">
+
+          <p class="h6 has-after">Volti.</p>
+
+          <p class="footer-text">
+            A leading developer of top-tier commercial electric car and bike projects in the Bangladesh. Since our founding, we’ve doubled our turnover every year while expanding our expert team.
+          </p>
+
+          <a href="#contact" class="btn-outline">
+            <span class="span">Get a quote</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h6 has-after">Company Info</p>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">Our Projects</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">Meet Our Team</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="footer-link">News & Media</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="footer-link">Careers</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h6 has-after">Quick Contact</p>
+          </li>
+
+          <li>
+            <address class="footer-text">
+              📍 Chittagong, Bangladesh-1000.
+            </address>
+          </li>
+
+          <li>
+            <p class="footer-text">
+               <b>Need help or have questions?</b>
+              Feel free to reach out to our team anytime.
+            </p>
+          </li>
+
+          <li>
+            <a href="tel:008801812487092" class="contact-link">📱 (+880) 1812487092</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div>
+          <ul class="footer-bottom-list">
+
+            <li>
+              <a href="#" class="footer-bottom-link">Where to Find Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Terms of Payment</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Stats Element</a>
+            </li>
+
+          </ul>
+
+          <p class="copyright">Developed by <b>Shoham Mallick</b></p>
+        </div>
+
+            <img id="footer-logo" src="./assets/images/logoev.png" width="100" height="63" loading="lazy" alt="Scootify-ev">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="go to top" data-go-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(reg => console.log('Service Worker registered ✔️', reg))
+      .catch(err => console.error('Service Worker registration failed ❌', err));
+  }
+</script>
+
+
+</body>
+
+</html>

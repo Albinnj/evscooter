@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Energy Star Certified Electric Vehicle Chargers",
+    "image": "./assets/images/blog-1.jpg",
+    "alt": "Energy Star Certified Electric Vehicle Chargers",
+    "date": "2025-06-03",
+    "author": "Admin",
+    "comments": 5,
+    "link": "#blog"
+  },
+  {
+    "title": "Charging Solutions for Electric & Hybrid Cars",
+    "image": "./assets/images/blog-2.jpg",
+    "alt": "Charging Solution For Electric Car & Hybrid Car",
+    "date": "2025-06-06",
+    "author": "Admin",
+    "comments": 4,
+    "link": "#blog"
+  },
+  {
+    "title": "Home Charging Stations for Electric Vehicles",
+    "image": "./assets/images/blog-3.jpg",
+    "alt": "Home Charging Station For Electric Vehicles",
+    "date": "2025-06-10",
+    "author": "Admin",
+    "comments": 9,
+    "link": "#blog"
+  }
+]

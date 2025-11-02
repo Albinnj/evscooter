@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Volti Urban",
+    "description": "Range 118 km • Top speed 90 km/h • 3.3s (0-50)",
+    "image": "./assets/images/hero-banner.png"
+  },
+  {
+    "name": "Volti Pro",
+    "description": "Range 135 km • Top speed 95 km/h • Smart connectivity",
+    "image": "./assets/images/service-banner.png"
+  },
+  {
+    "name": "Volti Cargo",
+    "description": "Utility build • High torque • Long-lasting battery",
+    "image": "./assets/images/stats-banner.jpg"
+  },
+  {
+    "name": "Volti Lite",
+    "description": "Lightweight • City commute • Easy charging at home",
+    "image": "./assets/images/about-banner-1.jpg"
+  }
+]

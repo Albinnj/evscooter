@@ -1,0 +1,21 @@
+{
+  "name": "Volti Home",
+  "short_name": "Volti",
+  "start_url": "/volti-home/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00c853",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/images/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

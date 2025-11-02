@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "title": "Book Your Eco-Friendly Ride",
+    "subtitle": "Charge your electric scooter effortlessly at home using our smart charging solutions — or connect to over 3,000+ public charging stations across the country.",
+    "button_text": "Book Now"
+  },
+  "about": {
+    "title": "Our mission is to build a cleaner world with easy access to electric mobility",
+    "description": "Charge your electric scooter effortlessly at home using our smart charging solutions — or connect to over 3,000+ public charging stations across the country."
+  },
+  "contact": {
+    "phone": "+(880) 1812487092",
+    "email": "info.volti@gmail.com",
+    "address": "Chittagong, Bangladesh-1000"
+  },
+  "company": {
+    "name": "Volti",
+    "description": "A leading developer of top-tier commercial electric car and bike projects in the Bangladesh. Since our founding, we've doubled our turnover every year while expanding our expert team."
+  },
+  "meta": {
+    "title": "Shoham mallick || Volti - Book Your Eco-Friendly Ride",
+    "description": "This is a vehicle charging html template made by Shoham Mallick"
+  },
+  "services": {
+    "section_title": "What Advantages Will You Get Using An E-Scooter?",
+    "section_subtitle": "What We Do!"
+  },
+  "cta": {
+    "title": "Designed for Our Roads",
+    "description": "Built to handle local conditions with durability and comfort.<br>Experience smooth rides tailored to your environment."
+  },
+  "blog": {
+    "section_title": "Stay updated with the latest insights and innovations in electric vehicle systems.",
+    "section_subtitle": "Fresh News"
+  }
+}
